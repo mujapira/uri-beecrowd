@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "*.html": "html",
+        "*.module": "php",
+        "*.env.local": "env",
+        "*.env.*": "env",
+        "stdio.h": "c",
+        "math.h": "c"
+    }
+}
