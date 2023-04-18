@@ -2,9 +2,7 @@
 
 int main() {
   float entrada;
-
-  printf(
-      "receba um número e descubra se ele é positivo, negativo ou nulo 10 vezes\n");
+  printf("receba um número e descubra se ele é positivo, negativo ou nulo 10 vezes\n");
 
   for (int i = 0; i < 10; i++) {
     scanf("%f", &entrada);

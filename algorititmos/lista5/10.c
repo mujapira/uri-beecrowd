@@ -1,54 +1,73 @@
 #include <stdio.h>
 
 int main() {
-  float altura, ultimaAltura, menorAltura, mediaAltura, mediaAlturaMulheres,
-      quantidadeHomem, quantidadeMulher, somaAlturaMulheres, maiorAltura;
-  int sexo;
+  float currentPersonHeight, averageWomanHeight, allWomanHeight,
+      smallestPersonHeight, tallestPersonHeight;
 
-  for (int i = 0; i < 2; i++) {
-    printf("olá pessoa :)\n");
+  int currentPersonGender, loopCounter, menCounter;
+  int womanCounter, tallestPersonGender;
+
+  allWomanHeight = 0;
+  smallestPersonHeight = 0;
+  tallestPersonGender = 0;
+  tallestPersonHeight = 0;
+  averageWomanHeight = 0;
+  menCounter = 0;
+  womanCounter = 0;
+
+  for (loopCounter = 0; loopCounter < 15; loopCounter++) {
+    printf("olá pessoa numero %i\n", loopCounter + 1);
+
+    printf("insira o seu sexo, 1 para homem, 2 para mulher\n");
+    scanf("%i", &currentPersonGender);
+
     printf("insira a sua altura\n");
-    scanf("%f", &altura);
+    scanf("%f", &currentPersonHeight);
 
-    printf("insira o seu sexo, 1 se for homem, 2 se for mulher\n");
-    scanf("%i", &sexo);
-
-    if (ultimaAltura == 0) {
-      ultimaAltura = altura;
-    }
-
-    if (ultimaAltura <= altura) {
-      menorAltura = ultimaAltura;
+    if (currentPersonGender == 1) {
+      menCounter = menCounter + 1;
     } else {
-      menorAltura = altura;
+      womanCounter = womanCounter + 1;
+      allWomanHeight = allWomanHeight + currentPersonHeight;
     }
 
-    ultimaAltura = altura;
+    if (loopCounter != 0) {
+      if (currentPersonHeight > tallestPersonHeight) {
+        tallestPersonHeight = currentPersonHeight;
+        tallestPersonGender = currentPersonGender;
+      }
 
-    if (sexo == 1) {
-      quantidadeHomem = quantidadeHomem + 1;
-    } else if (sexo == 2) {
-      quantidadeMulher = quantidadeMulher + 1;
-      somaAlturaMulheres = somaAlturaMulheres + altura;
+      if (currentPersonHeight < smallestPersonHeight) {
+        smallestPersonHeight = currentPersonHeight;
+      }
+
+      if (currentPersonHeight == tallestPersonHeight) {
+        if (currentPersonGender != tallestPersonGender) {
+          tallestPersonGender = 3;
+        }
+      }
+
+    } else {
+      tallestPersonHeight = currentPersonHeight;
+      smallestPersonHeight = currentPersonHeight;
+      tallestPersonGender = currentPersonGender;
     }
   }
-
-  if (quantidadeMulher > 0) {
-    mediaAlturaMulheres = somaAlturaMulheres / quantidadeMulher;
+  if (womanCounter != 0) {
+    averageWomanHeight = allWomanHeight / womanCounter;
   } else {
-    mediaAlturaMulheres = 0;
+    averageWomanHeight = 0;
   }
-  printf("teste: %f\n", maiorAltura);
 
-  printf("a menor altura é: %f\n", menorAltura);
-  printf("a quantidade de homens é: %f\n", quantidadeHomem);
-  printf("a media da altura das mulheres é: %f\n", mediaAlturaMulheres);
-  if (maiorAltura == 1) {
+  printf("A altura da pessoa mais baixa é: %.2f\n", smallestPersonHeight);
+  printf("A média da altura das mulheres é: %.2f\n", averageWomanHeight);
+  printf("A quantidade de homens é: %i\n", menCounter);
+  if (tallestPersonGender == 1) {
     printf("A pessoa mais alta é homem\n");
-  } else if (maiorAltura == 2) {
+  } else if (tallestPersonGender == 2) {
     printf("A pessoa mais alta é mulher\n");
   } else {
-    printf("O homem e a mmulher mais altos tem a mesma altura\n");
+    printf("O homem mais alto e a mulher mais alta tem a mesma altura\n");
   }
 
   return 0;

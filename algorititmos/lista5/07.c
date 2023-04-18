@@ -1,22 +1,22 @@
 #include <stdio.h>
 
 int main() {
-  float input, inputAnterior, maior, menor;
-  printf("Digite 10 números e descubra qual é o maior e o menor \n");
+  int i, n;
+  float somatoriaEntradas, mediaFinal, entrada;
+  somatoriaEntradas = 0;
+  mediaFinal = 0;
+  printf("Calcular a média de N números\n");
+  printf("Digite o valor de N\n");
+  scanf("%i", &n);
 
-  for (int i = 0; i < 10; i++) {
-    scanf("%f", &input);
-    if (input > inputAnterior) {
-      maior = input;
-    } else if (input < inputAnterior) {
-      menor = input;
-    } else {
-      menor = input;
-      maior = input;
-    }
-    inputAnterior = input;
+  for (i = 0; i < n; i++) {
+    printf("Digite o valor %i\n", i + 1);
+    scanf("%f", &entrada);
+    somatoriaEntradas = somatoriaEntradas + entrada;
   }
-  printf("maior é %.2f, menor é %.2f\n", maior, menor);
+
+  mediaFinal = somatoriaEntradas / n;
+  printf("a média é: %.2f", mediaFinal);
 
   return 0;
 }
