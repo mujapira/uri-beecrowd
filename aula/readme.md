@@ -1,11 +1,12 @@
-[] - Introdução
-[] - Funções
-[] - Variáveis
-[] - Print e Scanf
-[] - Operadores
-[] - Como evitar erros
-[] - For
-[] - Contador e acumulador
+
+[]- Introdução
+[]- Funções
+[]- Variáveis
+[]- Print e Scanf
+[]- Operadores
+[]- Como evitar erros
+[]- For
+[]- Contador e acumulador
 
 # C é uma linguagem de baixo nível
 
@@ -16,9 +17,9 @@
 ## Bibliotecas
 
 #include <stdio.h>
- 
+
 # estrutura de uma função
-oQueElaEspera NomeDaFunção(parametros){
+oQueElaEspera NomeDaFunção(parâmetros){
     instruções;
     return 0;   
 }
@@ -66,19 +67,19 @@ scanf("%i", &variavel);
 . if
 . else
 
-. %  [resto] 10 % 2 = 0 -> Como ler? O resto de 10 dividido por 2 é igual a
-. +  [Soma] a + b
-. -  [Subtração] a -b
-. /  [Divisão] a / b
-. *  [multiplicação] a * b
-. =  [atribuir] a = 1
-. == [compararSeIgual] a == b -> compara e retorna verdadeiro ou falso
-. >, <, <=, <=
-. != [comparaSeDiferente] a != b -> compara e retorna verdadeiro ou falso
-. ++ [incrementaEmUmaUnidade]
-. -- [decrementaEmUmaUnidade]
-. += [acumula]
-. -= [desacumula]
+%  [resto] 10 % 2 = 0 -> Como ler? O resto de 10 dividido por 2 é igual a
++  [Soma] a + b
+-  [Subtração] a -b
+/  [Divisão] a / b
+*  [multiplicação] a * b
+=  [atribuir] a = 1
+== [compararSeIgual] a == b -> compara e retorna verdadeiro ou falso
+> < <= <=
+!= [comparaSeDiferente] a != b -> compara e retorna verdadeiro ou falso
+++ [incrementaEmUmaUnidade]
+-- [decrementaEmUmaUnidade]
++= [acumula]
+-= [desacumula]
 
 
 > sobre o if e o else
@@ -111,6 +112,6 @@ variavel = variavel + 1;
     Método para guardar uma sequencia de valores
 variavel = variavel + valorSoma
 
-
-
-
+## Precisa saber
+- media
+- 
