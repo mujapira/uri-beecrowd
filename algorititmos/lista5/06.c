@@ -3,9 +3,7 @@
 int main() {
   float input;
   int positiveCount, negativeCount, safadoCount;
-  printf(
-      "Digite 10 números e descubra quantos foram positivos e quantos foram "
-      "negativos\n");
+  printf("Digite 10 números e descubra quantos foram positivos e quantos foram negativos\n");
 
   for (int i = 0; i < 10; i++) {
     scanf("%f", &input);
