@@ -16,7 +16,7 @@ int main() {
         if (porcentagemHabitantesMaioresDeIdade < 5) {
          printf("Quase ninguém pode dirigir!\n");
         } else {
-            printf("Menos da metade da populção pode dirigir \n");
+            printf("Menos da metade da população pode dirigir \n");
         }
     }
 

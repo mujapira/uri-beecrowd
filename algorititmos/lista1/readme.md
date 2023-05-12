@@ -11,7 +11,7 @@
 6. Receber base e altura de um triângulo, calcular sua área e exibir o valor calculado. 
 
 7. Receber uma temperatura em Fahrenheit e convertê-la para Celsius através da seguinte fórmula: 
-                                          Celsius = (Fahrenheit - 32) / 1.8. 
+Celsius = (Fahrenheit - 32) / 1.8. 
 Exibir o valor em Celsius. 
 
 8. Calcular e exibir o perímetro de uma circunferência recebendo seu raio. 

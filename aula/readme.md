@@ -12,7 +12,7 @@
 
 # Linhas gerais
 1. Padrão camelCase, sem números e símbolos para declarar variáveis. Elas devem ser descritivas e podem ser longas
-2. Identar o código com Tabs ou espaços
+2. Alinhar o código com Tabs ou espaços
 
 ## Bibliotecas
 
@@ -76,8 +76,10 @@ scanf("%i", &variavel);
 == [compararSeIgual] a == b -> compara e retorna verdadeiro ou falso
 > < <= <=
 != [comparaSeDiferente] a != b -> compara e retorna verdadeiro ou falso
+
 ++ [incrementaEmUmaUnidade]
 -- [decrementaEmUmaUnidade]
+
 += [acumula]
 -= [desacumula]
 
@@ -87,7 +89,7 @@ scanf("%i", &variavel);
 if(condição){
     instrução do if
 } else {
-    instrução do else
+    if (){}
 }
 
 Caso a condição seja verdadeira, a instrução do if será executada

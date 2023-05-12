@@ -12,14 +12,8 @@
 
 4. Receber um salário bruto e calcular o salário líquido (salário bruto após descontar impostos). Imposto sobre salário de até R$ 2750.00 é de 15%, para salário maior que R$ 2750.00 é 25%. 
 
- 
-
 5. Receber dois números distintos e mostrar o maior deles. 
 
- 
-
 6. Receber numerador e denominador e calcular o resultado da divisão, desde que possível (denominador diferente de zero). Se não for possível dividir, apenas escreva “não existe divisão por zero”. 
-
- 
 
 7. Você assina um plano de 50 minutos no celular que custa R$ 50.00 por mês, independente de utilizá-los integralmente ou não. Porém, se você utilizar mais do que 50 minutos, é cobrado mais R$ 1.50 por cada minuto que passar dos 50 do seu plano. Receber quantos minutos foram gastos no mês e calcular o valor da conta. 
