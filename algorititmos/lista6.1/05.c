@@ -1,6 +1,7 @@
 // 5. Criar um programa de calculadora que vai realizando os cálculos entre dois
 // números enquanto o usuário desejar. Criar um menu de opções conforme mostrado
 // a seguir: 1 – Soma 2 – Subtração 3 – Multiplicação 4 – Divisão 5 – Sair
+#include <stdio.h>
 
 int main() {
   float num = 0, numOne = 0, numTwo = 0, resultado = 0;

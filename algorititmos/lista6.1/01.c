@@ -7,12 +7,12 @@ int main() {
   int counter = 0;
   
   // comando responsável por iniciar o processo de repetiçao
-  do {
+  while (counter < 101) {
     printf("%i\n", counter);
     counter = counter + 2;
 
   // condição que quando satisfeita, quebra o processo de repetir
-  } while (counter < 101);
+  };
 
   return 0;
 }

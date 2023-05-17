@@ -25,4 +25,5 @@ Depósito 2.Retirada 3.Fim e também o valor. Quando for informado para o tipo o
 
         Números divisíveis por 3 no intervalo de 17 a 29: 18 21 24 27
 
+
 8. A prefeitura de Itu está em eleições. Apresentaram-se 3 candidatos: JOSÉ com o nº 1, MARIA com o nº 2 e JOÃO com o nº 3. Cada eleitor deve indicar a sua opção, que pode ser o nº de um candidato (1,2,3), voto branco (nº 4) ou voto nulo (nº 5). Preparar um programa que receba e processe os dados de um número não determinado de cédulas até que seja digitado 0 para o voto, escrevendo os seguintes dados: a) o número de votos de cada uma das 5 opções; b) o nome do candidato vencedor; c) o percentual de eleitores que elegeram o candidato vencedor.
