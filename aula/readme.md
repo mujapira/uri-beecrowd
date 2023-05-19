@@ -1,24 +1,25 @@
-[] - Introdução
-[] - Funções
-[] - Variáveis
-[] - Print e Scanf
-[] - Operadores
-[] - Como evitar erros
-[] - For
-[] - Contador e acumulador
+
+[]- Introdução
+[]- Funções
+[]- Variáveis
+[]- Print e Scanf
+[]- Operadores
+[]- Como evitar erros
+[]- For
+[]- Contador e acumulador
 
 # C é uma linguagem de baixo nível
 
 # Linhas gerais
 1. Padrão camelCase, sem números e símbolos para declarar variáveis. Elas devem ser descritivas e podem ser longas
-2. Identar o código com Tabs ou espaços
+2. Alinhar o código com Tabs ou espaços
 
 ## Bibliotecas
 
 #include <stdio.h>
- 
+
 # estrutura de uma função
-oQueElaEspera NomeDaFunção(parametros){
+oQueElaEspera NomeDaFunção(parâmetros){
     instruções;
     return 0;   
 }
@@ -66,19 +67,21 @@ scanf("%i", &variavel);
 . if
 . else
 
-. %  [resto] 10 % 2 = 0 -> Como ler? O resto de 10 dividido por 2 é igual a
-. +  [Soma] a + b
-. -  [Subtração] a -b
-. /  [Divisão] a / b
-. *  [multiplicação] a * b
-. =  [atribuir] a = 1
-. == [compararSeIgual] a == b -> compara e retorna verdadeiro ou falso
-. >, <, <=, <=
-. != [comparaSeDiferente] a != b -> compara e retorna verdadeiro ou falso
-. ++ [incrementaEmUmaUnidade]
-. -- [decrementaEmUmaUnidade]
-. += [acumula]
-. -= [desacumula]
+%  [resto] 10 % 2 = 0 -> Como ler? O resto de 10 dividido por 2 é igual a
++  [Soma] a + b
+-  [Subtração] a -b
+/  [Divisão] a / b
+*  [multiplicação] a * b
+=  [atribuir] a = 1
+== [compararSeIgual] a == b -> compara e retorna verdadeiro ou falso
+> < <= <=
+!= [comparaSeDiferente] a != b -> compara e retorna verdadeiro ou falso
+
+++ [incrementaEmUmaUnidade]
+-- [decrementaEmUmaUnidade]
+
++= [acumula]
+-= [desacumula]
 
 
 > sobre o if e o else
@@ -86,7 +89,7 @@ scanf("%i", &variavel);
 if(condição){
     instrução do if
 } else {
-    instrução do else
+    if (){}
 }
 
 Caso a condição seja verdadeira, a instrução do if será executada
@@ -111,6 +114,6 @@ variavel = variavel + 1;
     Método para guardar uma sequencia de valores
 variavel = variavel + valorSoma
 
-
-
-
+## Precisa saber
+- media
+- 
