@@ -1,10 +1,10 @@
-// 1. ​Receber 10 números e armazená - los em um vetor.Ao final,
-//     exibir os números na ordem que foram recebidos.
+// 4. Receber 15 números e armazená-los em um vetor.
+//     Ao final, exibir o dobro de cada um dos números.
 
 #include <stdio.h>
 
 int main() {
-  int tamanhoArray = 10, entrada, i;
+  int tamanhoArray = 15, entrada, i, display;
   int arrayA[tamanhoArray];
 
   printf("Escreva  %i numeros\n", tamanhoArray);
@@ -16,12 +16,11 @@ int main() {
 
   for (i = 0; i < tamanhoArray; i++) {
     if (i == tamanhoArray - 1) {
-      printf("%.1i\n", arrayA[i]);
-
+      printf("%i", arrayA[i] * 2);
     } else {
-      printf("%.1i, ", arrayA[i]);
+      printf("%i, ", arrayA[i] * 2);
     }
   }
-
+  
   return 0;
 }

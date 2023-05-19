@@ -1,28 +1,29 @@
-1. Criar um programa que exibe todos os números pares de 0 a 100 utilizando while.
+1. ​Receber 10 números e armazená-los em um vetor.
+    Ao final, exibir os números na ordem que foram recebidos. 
 
-2. Criar um programa que exibe todos os números ímpares de 0 a 100 utilizando do-while.
+2. Receber 10 números e armazená-los em um vetor. 
+    Ao final, exibir os números na ordem inversa da que foram recebidos. 
 
-3. Receber a nota de um aluno no módulo 1 e no módulo 2 e calcular a média deles. O usuário só pode digitar notas no intervalo de 0 a 10, caso ele digite um valor inválido, deve digitar novamente.
+3. Receber 8 números e armazená-los em um vetor. 
+     Ao final, pedir para o usuário escolher uma posição do vetor e exibir o número contido nela. 
 
-4. Receber números enquanto o usuário quiser digitá-los (a cada número informado peça que o usuário digite 1 se quiser informar mais um número ou 2 se quiser parar). No final, exibir: o maior número; a média aritmética dos números.
+4. Receber 15 números e armazená-los em um vetor. 
+    Ao final, exibir o dobro de cada um dos números. 
 
-5. Criar um programa de calculadora que vai realizando os cálculos entre dois números enquanto o usuário desejar. Criar um menu de opções conforme mostrado a seguir:
-1 – Soma
-2 – Subtração
-3 – Multiplicação
-4 – Divisão
-5 – Sair
+5. Receber 12 números e armazená-los em um vetor. 
+    Ao final, exibir quais foram os números positivos informados. 
 
-6. Escreva um programa para receber o saldo inicial de uma conta bancária de um cliente. A seguir ler um número indeterminado de pares de valores indicando respectivamente o tipo da operação, sendo: 1.
-Depósito 2.Retirada 3.Fim e também o valor. Quando for informado para o tipo o código 3, o programa deve ser encerrado e impresso o saldo final da conta com as seguintes mensagens: CONTA ZERADA, CONTA ESTOURADA (se o saldo for negativo) ou CONTA PREFERENCIAL (se o saldo for positivo).
+6. Receber 12 números e armazená-los em um vetor. 
+    Ao final, exibir a quantidade de números negativos informados. 
 
+7. Preencher automaticamente um vetor com todos os números pares entre 1 e 100 e depois exibir os números para o usuário. 
 
-7. Escreva um programa que calcule todos os números inteiros divisíveis por um certo valor indicado pelo usuário, e compreendidos em um intervalo também especificado pelo usuário. O usuário deve entrar com um primeiro valor correspondente ao divisor e após ele vai fornecer o valor inicial do intervalo, seguido do valor final deste intervalo. Exemplo:
+8. Receber números do usuário para preencher um vetor de 10 posições, porém, só é permitido armazenar no vetor números positivos (repetir até que as 10 posições do vetor estejam preenchidas). 
+    No final, exiba a soma de todos os números que estão nas posições ímpares do vetor. 
 
-        Digite o valor do divisor: 3
-        Digite o início do intervalo: 17
-        Digite o final do intervalo: 29
+9. Receber 10 números e armazená-los em um vetor. 
+    Após esta primeira etapa é necessário pedir para o usuário digitar um número. 
+    Verificar se este número está armazenado no vetor e se estiver mostrar quantas vezes o número esta armazenado no vetor, ou seja, quantas vezes o número se repete. 
+     Se o número não estiver no vetor, uma mensagem deve indicar esta condição e deverá ser solicitado um novo número para o usuário. 
 
-        Números divisíveis por 3 no intervalo de 17 a 29: 18 21 24 27
-
-8. A prefeitura de Itu está em eleições. Apresentaram-se 3 candidatos: JOSÉ com o nº 1, MARIA com o nº 2 e JOÃO com o nº 3. Cada eleitor deve indicar a sua opção, que pode ser o nº de um candidato (1,2,3), voto branco (nº 4) ou voto nulo (nº 5). Preparar um programa que receba e processe os dados de um número não determinado de cédulas até que seja digitado 0 para o voto, escrevendo os seguintes dados: a) o número de votos de cada uma das 5 opções; b) o nome do candidato vencedor; c) o percentual de eleitores que elegeram o candidato vencedor.
+10. Receber 10 números e armazená-los em um vetor. Copiar os números em outro vetor na ordem inversa e mostrar na tela todas as posições em que se tem o mesmo número nos dois vetores.

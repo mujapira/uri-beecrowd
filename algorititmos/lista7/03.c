@@ -1,28 +1,23 @@
-// 3. Receber a nota de um aluno no módulo 1 e no módulo 2 e calcular
-// a média deles. O usuário só pode digitar notas no intervalo de 0 a 10,
-// caso ele digite um valor inválido, deve digitar novamente.
+// 3. Receber 8 números e armazená-los em um vetor.
+//      Ao final, pedir para o usuário escolher uma posição do vetor e exibir o
+//      número contido nela.
+
 #include <stdio.h>
 
 int main() {
-  float notaUm, notaDois, media;
+  int tamanhoArray = 8, entrada, i, display;
+  int arrayA[tamanhoArray];
 
-  do { //faça isso 
-    printf("Digite a nota do módulo 1 \n");
-    scanf("%f", &notaUm);
+  printf("Escreva  %i numeros\n", tamanhoArray);
 
-  // enquanto a nota for mais que 10 ou menos que zero
-  } while (notaUm > 10 || notaUm < 0);
+  for (i = 0; i < tamanhoArray; i++) {
+    scanf("%i", &entrada);
+    arrayA[i] = entrada;
+  }
 
-  do {
-    printf("Digite a nota do módulo 2 \n");
-    scanf("%f", &notaDois);
-
-  } while (notaDois > 10 || notaDois < 0);
-
-
-  media = (notaUm + notaDois) / 2;
-
-  printf("A média é %f\n", media);
+  printf("Digite qual posição do array voce quer acessar\n");
+  scanf("%i", &display);
+  printf("A posição %i vale %i", display, arrayA[display]);
 
   return 0;
 }
