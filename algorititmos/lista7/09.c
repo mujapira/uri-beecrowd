@@ -7,7 +7,6 @@
 //      condição e deverá ser solicitado um novo número para o usuário.
 
 #include <stdio.h>
-#include <stdlib.h>
 
 int main() {
   int tamanhoArray = 10, entrada = 0, contador = 0;
@@ -19,7 +18,7 @@ int main() {
     scanf("%i", &entrada);
     arrayA[i] = entrada;
   }
-  system("clear");
+  printf("-----------------------\n");
 
   printf("Digite um numero\n");
   scanf("%i", &entrada);
@@ -31,7 +30,7 @@ int main() {
   }
 
   while (contador == 0) {
-    system("clear");
+    printf("-----------------------\n");
 
     printf("O numero digitado não existe, digite um novo\n");
     scanf("%i", &entrada);
