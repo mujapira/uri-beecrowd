@@ -5,15 +5,14 @@ int main() {
   int sessionRows = 20;
   int sessionSeats = 30;
   int session[sessionRows][sessionSeats];
-  int ticketBasePrice = 0;
-  int ticketPrice = 0;
+  float ticketBasePrice = 0;
+  float ticketPrice = 0;
   int ticketType = 0;
   int seatRow = 0;
   int seatNumber = 0;
-  int isSeatAvailable = 0;
   int operationStatus = 0;
   int ticketsSold = 0;
-  int totalIncome = 0;
+  float totalIncome = 0;
   int totalNormalTickets = 0;
   int totalHalfTickets = 0;
   int totalFreeTickets = 0;
@@ -49,7 +48,7 @@ int main() {
   printf("\n");
 
   printf("Digite o preço base (valor cheio) do ingresso\n");
-  scanf("%i", &ticketBasePrice);
+  scanf("%f", &ticketBasePrice);
 
   do {
     printf(
@@ -152,7 +151,7 @@ int main() {
   printf("Total de ingressos normais vendidos: %i\n", totalNormalTickets);
   printf("Total de ingressos meia entrada vendidos: %i\n", totalHalfTickets);
   printf("Total de ingressos cortesia fornecidos: %i\n", totalFreeTickets);
-  printf("Total arrecadado: %i\n\n", totalIncome);
+  printf("Total arrecadado: %.2f\n\n", totalIncome);
 
   for (int i = 0; i < sessionRows; i++) {
     if (i < 9) {
